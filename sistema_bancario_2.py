@@ -37,7 +37,7 @@ def sacar(*, saldo, valor, extrato, limite, numero_saques, limite_saques):
     else:
         print("Operação falhou! O valor informado é inválido.")
 
-    return saldo, extrato
+    return saldo, extrato, numero_saques
  
 
 def exibir_extrato(saldo, /, *, extrato):
